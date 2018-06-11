@@ -1126,6 +1126,17 @@
 		93E17F0F1ED3BA7500671CA1 /* CBLDatabaseChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E17F0A1ED3AC8100671CA1 /* CBLDatabaseChange.m */; };
 		93E17F101ED3BA7800671CA1 /* CBLDocumentChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E17EF71ED3ABE200671CA1 /* CBLDocumentChange.m */; };
 		93E17F151ED4ED4000671CA1 /* NotificationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E17F141ED4ED4000671CA1 /* NotificationTest.swift */; };
+		93E2875420CB4E56002CCE2C /* libPocketSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E2874D20CB4D4C002CCE2C /* libPocketSocket.a */; };
+		93E2875720CB4F78002CCE2C /* CBLWebPocketSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E2875520CB4F78002CCE2C /* CBLWebPocketSocket.h */; };
+		93E2875820CB4F78002CCE2C /* CBLWebPocketSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E2875520CB4F78002CCE2C /* CBLWebPocketSocket.h */; };
+		93E2875920CB4F78002CCE2C /* CBLWebPocketSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E2875520CB4F78002CCE2C /* CBLWebPocketSocket.h */; };
+		93E2875A20CB4F78002CCE2C /* CBLWebPocketSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E2875520CB4F78002CCE2C /* CBLWebPocketSocket.h */; };
+		93E2875B20CB4F78002CCE2C /* CBLWebPocketSocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93E2875620CB4F78002CCE2C /* CBLWebPocketSocket.mm */; };
+		93E2875C20CB4F78002CCE2C /* CBLWebPocketSocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93E2875620CB4F78002CCE2C /* CBLWebPocketSocket.mm */; };
+		93E2875D20CB4F78002CCE2C /* CBLWebPocketSocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93E2875620CB4F78002CCE2C /* CBLWebPocketSocket.mm */; };
+		93E2875E20CB4F78002CCE2C /* CBLWebPocketSocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93E2875620CB4F78002CCE2C /* CBLWebPocketSocket.mm */; };
+		93E2875F20CB4F7C002CCE2C /* CBLWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753AFF31EC39CA200C12E98 /* CBLWebSocket.h */; };
+		93E2876020CB4F7D002CCE2C /* CBLWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2753AFF31EC39CA200C12E98 /* CBLWebSocket.h */; };
 		93E7BBAF1F3AB7BB00435430 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7BB9C1F3AB6F000435430 /* Collation.swift */; };
 		93E8FEA320A366D40061347F /* CBLMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9392609D20A0CBAB00E5748C /* CBLMessage.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		93E8FEA420A366E10061347F /* CBLMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9392609820A0CBAB00E5748C /* CBLMessage.m */; };
@@ -1427,6 +1438,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 27EF80F91917EEC600A327B9;
 			remoteInfo = "LiteCore static";
+		};
+		93E2874C20CB4D4C002CCE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E2873620CB4D4C002CCE2C /* PocketSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEE5E30A18B37DD500BAE47A;
+			remoteInfo = PocketSocket;
+		};
+		93E2874E20CB4D4C002CCE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E2873620CB4D4C002CCE2C /* PocketSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 275D3AE91B02811E0013B9A9;
+			remoteInfo = "PocketSocket-Mac";
+		};
+		93E2875020CB4D4C002CCE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E2873620CB4D4C002CCE2C /* PocketSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEE5E36018B37F8700BAE47A;
+			remoteInfo = PSAutobahnClientTests;
+		};
+		93E2875220CB4E3A002CCE2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E2873620CB4D4C002CCE2C /* PocketSocket.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE5E30918B37DD500BAE47A;
+			remoteInfo = PocketSocket;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1839,6 +1878,9 @@
 		93E17F091ED3AC8100671CA1 /* CBLDatabaseChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLDatabaseChange.h; sourceTree = "<group>"; };
 		93E17F0A1ED3AC8100671CA1 /* CBLDatabaseChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLDatabaseChange.m; sourceTree = "<group>"; };
 		93E17F141ED4ED4000671CA1 /* NotificationTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTest.swift; sourceTree = "<group>"; };
+		93E2873620CB4D4C002CCE2C /* PocketSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PocketSocket.xcodeproj; path = PocketSocket/PocketSocket.xcodeproj; sourceTree = "<group>"; };
+		93E2875520CB4F78002CCE2C /* CBLWebPocketSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBLWebPocketSocket.h; sourceTree = "<group>"; };
+		93E2875620CB4F78002CCE2C /* CBLWebPocketSocket.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CBLWebPocketSocket.mm; sourceTree = "<group>"; };
 		93E7BB9C1F3AB6F000435430 /* Collation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collation.swift; sourceTree = "<group>"; };
 		93E8FEA120A363810061347F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		93E8FEB220A36A480061347F /* MessageEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEndpoint.swift; sourceTree = "<group>"; };
@@ -1979,6 +2021,7 @@
 			files = (
 				9399E4B31E932F4700B57600 /* libz.tbd in Frameworks */,
 				9399E4B01E932EF200B57600 /* libLiteCore-static.a in Frameworks */,
+				93E2875420CB4E56002CCE2C /* libPocketSocket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2010,6 +2053,8 @@
 				9374A851201165AE00BA0D9E /* CBLURLEndpoint+Internal.h */,
 				2753AFF31EC39CA200C12E98 /* CBLWebSocket.h */,
 				2753AFF41EC39CA200C12E98 /* CBLWebSocket.mm */,
+				93E2875520CB4F78002CCE2C /* CBLWebPocketSocket.h */,
+				93E2875620CB4F78002CCE2C /* CBLWebPocketSocket.mm */,
 			);
 			path = Replicator;
 			sourceTree = "<group>";
@@ -2559,6 +2604,7 @@
 			isa = PBXGroup;
 			children = (
 				9398D9311E0347B600464432 /* LiteCore.xcodeproj */,
+				93E2873620CB4D4C002CCE2C /* PocketSocket.xcodeproj */,
 				934F4BCD1E1EF19000F90659 /* MYUtilities */,
 			);
 			path = vendor;
@@ -2797,6 +2843,16 @@
 			name = Router;
 			sourceTree = "<group>";
 		};
+		93E2873720CB4D4C002CCE2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93E2874D20CB4D4C002CCE2C /* libPocketSocket.a */,
+				93E2874F20CB4D4C002CCE2C /* libPocketSocket-Mac.a */,
+				93E2875120CB4D4C002CCE2C /* PSAutobahnClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		93E8FE8D20A363630061347F /* Message */ = {
 			isa = PBXGroup;
 			children = (
@@ -2911,6 +2967,7 @@
 				275F929F1E4D377C007FD5A2 /* CBLMutableDocument.h in Headers */,
 				93EC42D21FB3801E00D54BB4 /* CBLValueIndex.h in Headers */,
 				938E38821F3A5BB4006806C7 /* CBLQueryCollation.h in Headers */,
+				93E2875820CB4F78002CCE2C /* CBLWebPocketSocket.h in Headers */,
 				93FD618C2020757500E7F6A1 /* CBLIndex.h in Headers */,
 				93B75C1A1E79EF5F0033B61B /* CBLQueryDataSource.h in Headers */,
 				937A69041F0731230058277F /* CBLQueryFunction.h in Headers */,
@@ -3052,6 +3109,7 @@
 				9343EFE2207D611600F19A89 /* CBLQueryResultSet.h in Headers */,
 				9343EFE3207D611600F19A89 /* CBLQueryFullTextExpression.h in Headers */,
 				9343EFE4207D611600F19A89 /* CBLDatabase+Internal.h in Headers */,
+				93E2875920CB4F78002CCE2C /* CBLWebPocketSocket.h in Headers */,
 				9343EFE5207D611600F19A89 /* CBLDictionaryFragment.h in Headers */,
 				9343EFE6207D611600F19A89 /* CBLReachability.h in Headers */,
 				9343EFE7207D611600F19A89 /* CBLQueryBuilder.h in Headers */,
@@ -3080,6 +3138,7 @@
 				9343EFFD207D611600F19A89 /* CBLParseDate.h in Headers */,
 				9343EFFE207D611600F19A89 /* CBLReplicatorChange+Internal.h in Headers */,
 				939260A420A0CBAC00E5748C /* CBLMessage.h in Headers */,
+				93E2876020CB4F7D002CCE2C /* CBLWebSocket.h in Headers */,
 				9343EFFF207D611600F19A89 /* CBLParameterExpression.h in Headers */,
 				9343F000207D611600F19A89 /* CBLCollationExpression.h in Headers */,
 				9343F001207D611600F19A89 /* MYErrorUtils.h in Headers */,
@@ -3174,6 +3233,7 @@
 				9343F0F7207D61AB00F19A89 /* CBLReplicatorConfiguration.h in Headers */,
 				9369A6A8207DC865009B5B83 /* CBLDatabase+EncryptionInternal.h in Headers */,
 				9343F0F8207D61AB00F19A89 /* CBLArrayFragment.h in Headers */,
+				93E2875A20CB4F78002CCE2C /* CBLWebPocketSocket.h in Headers */,
 				9343F0F9207D61AB00F19A89 /* CBLQueryFullTextExpression.h in Headers */,
 				9343F0FA207D61AB00F19A89 /* CouchbaseLiteSwift.h in Headers */,
 				93E8FEA820A366F00061347F /* CBLMessageEndpointListener.h in Headers */,
@@ -3240,8 +3300,10 @@
 			files = (
 				2747666420191BFA007B39D1 /* CBLErrors.h in Headers */,
 				938B36A4200745FF004485D8 /* CBLQueryResultArray.h in Headers */,
+				93E2875F20CB4F7C002CCE2C /* CBLWebSocket.h in Headers */,
 				93EC42E61FB3930E00D54BB4 /* CBLQueryArrayExpression.h in Headers */,
 				9384D8401FC405D200FE89D8 /* CBLQueryFullTextFunction.h in Headers */,
+				93E2875720CB4F78002CCE2C /* CBLWebPocketSocket.h in Headers */,
 				933207AE1E773CFB000D9993 /* CBLJSONCoding.h in Headers */,
 				933208141E77415E000D9993 /* CBLQueryExpression.h in Headers */,
 				937A693C1F1065610058277F /* CBLQueryMeta.h in Headers */,
@@ -3600,6 +3662,7 @@
 			);
 			dependencies = (
 				9399E4AF1E932EE800B57600 /* PBXTargetDependency */,
+				93E2875320CB4E3A002CCE2C /* PBXTargetDependency */,
 			);
 			name = "CBL ObjC";
 			productName = CouchbaseLite;
@@ -3706,6 +3769,10 @@
 				{
 					ProductGroup = 9398D9321E0347B600464432 /* Products */;
 					ProjectRef = 9398D9311E0347B600464432 /* LiteCore.xcodeproj */;
+				},
+				{
+					ProductGroup = 93E2873720CB4D4C002CCE2C /* Products */;
+					ProjectRef = 93E2873620CB4D4C002CCE2C /* PocketSocket.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -3847,6 +3914,27 @@
 			fileType = wrapper.cfbundle;
 			path = "LiteCore-iOS Tests.xctest";
 			remoteRef = 9398D95B1E0347B600464432 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93E2874D20CB4D4C002CCE2C /* libPocketSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPocketSocket.a;
+			remoteRef = 93E2874C20CB4D4C002CCE2C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93E2874F20CB4D4C002CCE2C /* libPocketSocket-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPocketSocket-Mac.a";
+			remoteRef = 93E2874E20CB4D4C002CCE2C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93E2875120CB4D4C002CCE2C /* PSAutobahnClientTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PSAutobahnClientTests.xctest;
+			remoteRef = 93E2875020CB4D4C002CCE2C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -4075,6 +4163,7 @@
 				93140F031F22AA68006E18EF /* Result.swift in Sources */,
 				93CED8C920488BC900E6F0A4 /* DatabaseChange.swift in Sources */,
 				937F02A21EFC7DC600060D64 /* CBLQueryChange.m in Sources */,
+				93E2875C20CB4F78002CCE2C /* CBLWebPocketSocket.mm in Sources */,
 				93E17F0F1ED3BA7500671CA1 /* CBLDatabaseChange.m in Sources */,
 				937441D61E7B8B0500CB8F11 /* CBLPredicateQuery.mm in Sources */,
 				93C18E831FB638E80029B567 /* CBLDatabaseConfiguration.m in Sources */,
@@ -4299,6 +4388,7 @@
 				9369A68C207DB3D4009B5B83 /* CBLEncryptionKey.m in Sources */,
 				9343EF78207D611600F19A89 /* MYErrorUtils.m in Sources */,
 				9343EF79207D611600F19A89 /* CBLFullTextIndex.m in Sources */,
+				93E2875D20CB4F78002CCE2C /* CBLWebPocketSocket.mm in Sources */,
 				9343EF7A207D611600F19A89 /* CBLReplicatorConfiguration.m in Sources */,
 				9343EF7B207D611600F19A89 /* MYLogging.m in Sources */,
 				9343EF7C207D611600F19A89 /* CBLQueryArrayExpression.m in Sources */,
@@ -4429,6 +4519,7 @@
 				9369A6B3207DDBE7009B5B83 /* Database+Encryption.swift in Sources */,
 				9343F074207D61AB00F19A89 /* CBLDocument.mm in Sources */,
 				9343F075207D61AB00F19A89 /* DataConverter.swift in Sources */,
+				93E2875E20CB4F78002CCE2C /* CBLWebPocketSocket.mm in Sources */,
 				932CC55E207D9ED3000B4B78 /* DatabaseEndpoint.swift in Sources */,
 				9343F076207D61AB00F19A89 /* MutableDictionaryObject.swift in Sources */,
 				9343F077207D61AB00F19A89 /* DictionaryObject.swift in Sources */,
@@ -4673,6 +4764,7 @@
 				72A87A061E2E0E70008466FF /* CBLBlobStream.mm in Sources */,
 				937A69051F0731230058277F /* CBLQueryFunction.m in Sources */,
 				93DBD0132004BCE00017CA83 /* CBLURLEndpoint.m in Sources */,
+				93E2875B20CB4F78002CCE2C /* CBLWebPocketSocket.mm in Sources */,
 				27D7219B1F8E97F400AA4458 /* CBLFleece.mm in Sources */,
 				932EA56A2061FF7E00EDB667 /* CBLVersion.m in Sources */,
 				93C18E821FB638E80029B567 /* CBLDatabaseConfiguration.m in Sources */,
@@ -4831,6 +4923,11 @@
 			isa = PBXTargetDependency;
 			name = "LiteCore static";
 			targetProxy = 9399E4AE1E932EE800B57600 /* PBXContainerItemProxy */;
+		};
+		93E2875320CB4E3A002CCE2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PocketSocket;
+			targetProxy = 93E2875220CB4E3A002CCE2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
